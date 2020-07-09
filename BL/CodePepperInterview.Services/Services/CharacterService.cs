@@ -27,11 +27,6 @@ namespace CodePepperInterview.Services.Services
         private ITrackableRepository<Character> repository;
         private ITrackableRepository<CharacterFriend> friendRepo;
 
-        //public CharacterService, private IUnitOfWork unitOfWork)
-        //{
-        //    Mapper = mapper;
-        //}
-
         public CharacterService(
             ITrackableRepository<Character> repository,
             ITrackableRepository<CharacterFriend> friendRepository,

@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
@@ -16,10 +16,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CodePepperInterview.DAL.Models\CodePepperInterview.DAL.Models.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="test\" />
   </ItemGroup>
 
 </Project>

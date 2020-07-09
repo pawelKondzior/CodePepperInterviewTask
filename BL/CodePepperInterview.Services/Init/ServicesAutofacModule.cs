@@ -12,7 +12,6 @@ namespace CodePepperInterview.Services.Init
         protected override void Load(ContainerBuilder builder)
         {
             builder.RegisterType<CharacterService>().As<ICharactersService>();
-            //  builder.RegisterType<HardcodedCharacterService>().As<ICharactersService>();
         }
     }
 }
