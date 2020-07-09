@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apps", "Apps", "{139741DC-7835-46D9-A303-BB24D85FAF7F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BL", "BL", "{1F1ADE2C-C083-45FA-AF35-33FFBDE4E0AD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{B75F47DE-F78A-4BA9-B132-6E69A295BDFA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{05E3F3F1-D390-4B69-9E7E-8C2F055044BF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodePepperInterview.Web", "Apps\CodePepperInterview.Web\CodePepperInterview.Web.csproj", "{03FB1024-231B-45B5-B925-572E3FC38DEA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodePepperInterview.Contracts", "BL\CodePepperInterview.Contracts\CodePepperInterview.Contracts.csproj", "{2B79FDBE-16D1-45D6-A476-497C3446D656}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodePepperInterview.Services", "BL\CodePepperInterview.Services\CodePepperInterview.Services.csproj", "{A35AD110-4942-4339-AA20-D462331FEE1D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodePepperInterview.Tests", "Tests\CodePepperInterview.Tests\CodePepperInterview.Tests.csproj", "{33CE0197-0A52-413D-89E4-0996567DEDFF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IntegrationTests", "IntegrationTests", "{06F9D61C-2916-4632-BF6A-972FBE0312E5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodePepperInterview.IntegrationTests", "IntegrationTests\CodePepperInterview.IntegrationTests\CodePepperInterview.IntegrationTests.csproj", "{42A3256F-CC5D-4572-A13A-9ED6810497EB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodePepperInterview.DAL.EF", "DAL\CodePepperInterview.DAL.EF\CodePepperInterview.DAL.EF.csproj", "{78463F77-A0BB-42F6-A083-95F18F68F963}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodePepperInterview.DAL.Models", "DAL\CodePepperInterview.DAL.Models\CodePepperInterview.DAL.Models.csproj", "{C8A02E89-49FF-4348-9B3B-1592E921C31B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03FB1024-231B-45B5-B925-572E3FC38DEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03FB1024-231B-45B5-B925-572E3FC38DEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03FB1024-231B-45B5-B925-572E3FC38DEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03FB1024-231B-45B5-B925-572E3FC38DEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B79FDBE-16D1-45D6-A476-497C3446D656}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B79FDBE-16D1-45D6-A476-497C3446D656}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B79FDBE-16D1-45D6-A476-497C3446D656}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B79FDBE-16D1-45D6-A476-497C3446D656}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A35AD110-4942-4339-AA20-D462331FEE1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A35AD110-4942-4339-AA20-D462331FEE1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A35AD110-4942-4339-AA20-D462331FEE1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A35AD110-4942-4339-AA20-D462331FEE1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33CE0197-0A52-413D-89E4-0996567DEDFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33CE0197-0A52-413D-89E4-0996567DEDFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33CE0197-0A52-413D-89E4-0996567DEDFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33CE0197-0A52-413D-89E4-0996567DEDFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42A3256F-CC5D-4572-A13A-9ED6810497EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42A3256F-CC5D-4572-A13A-9ED6810497EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42A3256F-CC5D-4572-A13A-9ED6810497EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42A3256F-CC5D-4572-A13A-9ED6810497EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78463F77-A0BB-42F6-A083-95F18F68F963}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78463F77-A0BB-42F6-A083-95F18F68F963}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78463F77-A0BB-42F6-A083-95F18F68F963}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78463F77-A0BB-42F6-A083-95F18F68F963}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8A02E89-49FF-4348-9B3B-1592E921C31B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8A02E89-49FF-4348-9B3B-1592E921C31B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8A02E89-49FF-4348-9B3B-1592E921C31B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8A02E89-49FF-4348-9B3B-1592E921C31B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{03FB1024-231B-45B5-B925-572E3FC38DEA} = {139741DC-7835-46D9-A303-BB24D85FAF7F}
+		{2B79FDBE-16D1-45D6-A476-497C3446D656} = {1F1ADE2C-C083-45FA-AF35-33FFBDE4E0AD}
+		{A35AD110-4942-4339-AA20-D462331FEE1D} = {1F1ADE2C-C083-45FA-AF35-33FFBDE4E0AD}
+		{33CE0197-0A52-413D-89E4-0996567DEDFF} = {05E3F3F1-D390-4B69-9E7E-8C2F055044BF}
+		{42A3256F-CC5D-4572-A13A-9ED6810497EB} = {06F9D61C-2916-4632-BF6A-972FBE0312E5}
+		{78463F77-A0BB-42F6-A083-95F18F68F963} = {B75F47DE-F78A-4BA9-B132-6E69A295BDFA}
+		{C8A02E89-49FF-4348-9B3B-1592E921C31B} = {B75F47DE-F78A-4BA9-B132-6E69A295BDFA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AFE7BCD7-F3F9-4DF8-A1AF-643E68135DA9}
+	EndGlobalSection
+EndGlobal
